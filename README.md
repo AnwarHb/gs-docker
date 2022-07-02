@@ -3,10 +3,13 @@ In this repository, I used the [ https://github.com/spring-guides/gs-spring-boot
 #### To build locally in your machine:
 clone the repository - 
 `git clone https://github.com/AnwarHb/gs-docker.git`
+
 move to repository:
 `cd gs-docker`
+
 Build the image:
 `docker build -t gs-docker`
+
 #### To run the image locally :
 `docker run -d -p 8080:8080 gs-docker`
 
